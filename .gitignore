@@ -1,0 +1,55 @@
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+ecg_env/
+
+# --- Datasets (Too large for GitHub) ---
+data/
+Dataset_ECG/
+
+# --- Trained Models (Too large for GitHub) ---
+models/v1.0/*.pkl
+models/v1.0/*.npy
+models/v1.0/*.png
+
+# --- Logs & Temp Files ---
+logs/
+*.log
+temp_ecg.png
+
+# --- Jupyter Notebooks (if you use them later) ---
+.ipynb_checkpoints
+
+# --- VS Code / IDE settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
