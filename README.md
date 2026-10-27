@@ -2,6 +2,9 @@
 
 An Explainable Neuro-Symbolic System for Myocardial Infarction Detection. This system classifies ECG images into four clinical categories: Myocardial Infarction (MI), History of MI, Abnormal Heartbeat, and Normal.
 
+##Model Performance
+The retrained Stacking Ensemble achieved a 98.9% accuracy on the test set.
+
 ## Technical Architecture
 
 1. **Vision Engine:** Utilizes a pre-trained **MobileNetV2** (PyTorch) to convert raw ECG images into 1,280-dimensional feature vectors.
